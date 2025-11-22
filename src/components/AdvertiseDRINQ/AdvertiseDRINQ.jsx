@@ -56,7 +56,7 @@ const AdvertiseDRINQ = () => {
         />
 
         {/* TEXT BLOCK */}
-        <div>
+        <div className="d-flex flex-column" style={{ gap: "30px" }}>
           {/* TITLE */}
           <div
             className="d-flex justify-content-center align-items-center text-center"

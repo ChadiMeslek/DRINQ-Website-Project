@@ -20,7 +20,7 @@
     "whatIsDrinq": {
       "title": "What is DRINQ",
       "descriptionDesktop": "DRINQ™ is an automated vending solution that serves fresh sports supplements such as protein, creatine, and pre-workout in seconds. Unlike traditional smoothie bars or fitness vending machines, we are founded on the principle of providing a modern and effortless way to enjoy supplements, eliminating the time, cost, and complexity of running a bar.",
-      "descriptionMobile": "DRINQ™ is an automated vending machine that serves fresh supplements like protein, creatine, and pre-workout in seconds — fast, modern, and effortless.",
+      "descriptionMobile": "DRINQ™ is an automated vending machine that serves fresh supplements like protein, creatine, and pre-workout in seconds, fast, modern, and effortless.",
       "cards": [
         {
           "title": "For Owners",
@@ -58,7 +58,7 @@
   },
   "getStartedPage": {
     "title": "Get Started With DRINQ",
-    "subtitle": "Getting started with DRINQ™ is simple, fast, and completely managed by our team. From the first meeting to the installation and profit sharing, everything is handled for you — no setup costs, no daily management.",
+    "subtitle": "Getting started with DRINQ™ is simple, fast, and completely managed by our team. From the first meeting to the installation and profit sharing, everything is handled for you no setup costs, no daily management.",
     "finalText": "Simple, transparent, and rewarding.",
     "steps": [
       {
@@ -84,7 +84,7 @@
   "contact_us": {
     "button": "Contact Us",
     "title": "Contact Us",
-    "subtitle": "We’d love to hear from you! <br/> Let’s get in touch",
+    "subtitle": "We’d love to hear from you. <br/> Let’s get in touch!",
     "first_name": "First Name",
     "last_name": "Last Name",
     "business_email": "Business Email",
