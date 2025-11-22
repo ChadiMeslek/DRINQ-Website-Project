@@ -1,0 +1,14 @@
+/* Make desktop title smaller between 1024px and 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .who-title {
+    font-size: 70px !important; /* or 72px, 75px — adjust as you like */
+  }
+
+  .who-text {
+    font-size: 1.5rem !important; /* slightly smaller paragraph */
+  }
+
+  .who-logo {
+    height: 250px !important; /* optional: reduce large logo */
+  }
+}

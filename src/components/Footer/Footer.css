@@ -1,0 +1,16 @@
+.footer-text {
+  font-size: medium;
+}
+@media screen and (max-width: 514px) {
+  .footer-text {
+    font-size: 12px;
+  }
+}
+.desktop-social-links a {
+  transition: transform 0.2s ease;
+}
+.desktop-social-links a:hover {
+  transform: scale(1.2);
+}
+.custom-text {
+}

@@ -1,0 +1,27 @@
+/* Mobile & Tablet (default) */
+.advertise-gap {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Desktop (>=1220px) */
+@media (min-width: 1220px) {
+  .advertise-gap {
+    gap: 150px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Custom padding (same pattern as WhatIsDrinq) */
+@media (min-width: 1200px) {
+  .px-xl-custom {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .py-xl-custom {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+}

@@ -1,0 +1,27 @@
+/* Mobile & Tablet (default) */
+.home-gap {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Desktop (>=1220px) */
+@media (min-width: 1220px) {
+  .home-gap {
+    gap: 300px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .px-xl-custom {
+    padding-left: 135px !important;
+    padding-right: 135px !important;
+  }
+  .py-xl-custom {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+}
+

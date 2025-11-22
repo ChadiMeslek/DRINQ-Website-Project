@@ -1,0 +1,59 @@
+.img-hero-container1 {
+  position: relative;
+  width: 100%;
+  height: min(100vw, 720px);
+  max-height: 720px;
+  overflow: hidden;
+}
+
+/* Image always fills container */
+.img-hero1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Dark overlay */
+.img-hero-overlay1 {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text container */
+.hero-text1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* vertical centering only */
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Desktop: left */
+  text-align: left; /* Desktop: left */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-text1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center; /* Mobile: center horizontally */
+    text-align: center; /* Mobile text alignment */
+  }
+}
+
+/* Titles */
+.hero-title1 {
+  font-weight: bold;
+}
+/* MOBILE — increase image height */
+@media (max-width: 768px) {
+  .img-hero-container1 {
+    height: 90vh !important; /* taller image */
+    max-height: none; /* remove desktop limit */
+  }
+}

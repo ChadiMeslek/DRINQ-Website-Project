@@ -1,0 +1,193 @@
+/* Remove underline */
+.nav-item-link {
+  text-decoration: none !important;
+  color: white;
+  font-size: 1.5rem; /* fs-4 */
+  font-weight: 600; /* fw-semibold */
+  text-align: center;
+  padding: 8px 18px;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+
+/* Hover → white border */
+.nav-item-link:hover {
+  border-color: white;
+}
+
+/* Active → white background + black text */
+.nav-item-link.active {
+  background: white;
+  color: black !important;
+  border-color: white;
+}
+.desktop-social-links a {
+  transition: transform 0.2s ease;
+}
+.desktop-social-links a:hover {
+  transform: scale(1.2);
+}
+.logo-hover {
+  transition: transform 0.2s ease;
+}
+.logo-hover:hover {
+  transform: scale(1.1);
+}
+.fullscreen-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.fullscreen-menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.fullscreen-menu-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.close-menu-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.mobile-nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 12px;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mobile-nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.mobile-nav-link.active {
+  background: white;
+  color: black;
+}
+
+.mobile-social-links {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Hide overlay on desktop */
+@media (min-width: 992px) {
+  .fullscreen-menu-overlay {
+    display: none;
+  }
+}
+.mobile-social-links a {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  height: auto; /* allow height to grow */
+  width: auto; /* allow width to grow */
+}
+
+.mobile-social-links a svg {
+  height: auto;
+  width: auto;
+}
+.navbar-v2 {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important;
+}
+/* Desktop language buttons hover effect */
+.language-btns {
+  transition: transform 0.2s ease-in-out; /* smooth transition */
+}
+
+.language-btns:hover {
+  transform: scale(1.2); /* scale up on hover */
+}
+.language-btns.active {
+  background-color: white; /* highlight color */
+  color: black !important;
+  border-color: white !important;
+}
+@media (min-width: 576px) {
+  .navbar-v2 {
+    padding: 36px;
+  }
+}
+
+/* When scrolled */
+.navbar-v2-scrolled {
+  background: rgba(0, 0, 0, 0.435); /* darker for white logo */
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  transition: all 0.25s ease-in-out;
+}
+/* On hover when small */
+.navbar-v2-scrolled:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+/* Fixed top */
+.fixed-top {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030 !important;
+}
+.navbar-scrolled .logo-hover {
+  transform: scale(0.7);
+  transition: transform 0.25s ease-in-out;
+}
+@media (min-width: 576px) {
+  .navbar-v2 {
+    padding: 36px;
+  }
+}

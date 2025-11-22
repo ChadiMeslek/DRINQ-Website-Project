@@ -1,0 +1,39 @@
+.placeholder-white::placeholder {
+  color: white !important;
+  opacity: 0.7 !important; /* Reduced from 1 to 0.7 */
+}
+
+.placeholder-white::-webkit-input-placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+.placeholder-white::-moz-placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+.placeholder-white:-ms-input-placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+}
+
+.placeholder-white:-moz-placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+}
+/* Make modal wider on desktop */
+@media (min-width: 992px) {
+  .modal-dialog {
+    --bs-modal-width: 1000px; /* sets modal width to 1000px */
+    max-width: 1000px;
+  }
+}
+
+/* Social links desktop */
+.desktop-social-links a {
+  transition: transform 0.2s ease;
+}
+.desktop-social-links a:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+/* Existing XL paddings */
+@media (min-width: 1200px) {
+  .px-xl-custom {
+    padding-left: 135px !important;
+    padding-right: 135px !important;
+  }
+  .py-xl-custom {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+}

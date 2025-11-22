@@ -1,0 +1,25 @@
+{
+  "short_name": "DRINQ",
+  "name": "Distribution DRINQ",
+  "icons": [
+    {
+      "src": "white-logo-drinq.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "192x192_logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "og-image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,139 @@
+{
+  "navbar": {
+    "menu": "Menu",
+    "language_fr": "FR",
+    "language_en": "EN",
+    "items": {
+      "home": "Home",
+      "about": "About Us",
+      "getStarted": "Get Started",
+      "contact": "Contact Us",
+      "advertising": "Advertising",
+      "locations": "Our Locations"
+    }
+  },
+  "homePage": {
+    "hero": {
+      "title": "More Revenue. Zero Work.",
+      "tagline": "The future of shakes."
+    },
+    "whatIsDrinq": {
+      "title": "What is DRINQ",
+      "descriptionDesktop": "DRINQ™ is an automated vending solution that serves fresh sports supplements such as protein, creatine, and pre-workout in seconds. Unlike traditional smoothie bars or fitness vending machines, we are founded on the principle of providing a modern and effortless way to enjoy supplements, eliminating the time, cost, and complexity of running a bar.",
+      "descriptionMobile": "DRINQ™ is an automated vending machine that serves fresh supplements like protein, creatine, and pre-workout in seconds — fast, modern, and effortless.",
+      "cards": [
+        {
+          "title": "For Owners",
+          "text": "It’s a simple way to enhance member experience and generate extra value with no setup, staff, or ongoing management."
+        },
+        {
+          "title": "For Consumers",
+          "text": "It’s the easiest way to enjoy high-quality, freshly mixed supplements anytime, right at the gym."
+        }
+      ]
+    },
+    "drinqBenefits": {
+      "title": "Partnering with us",
+      "list": [
+        "No staff or setup required.",
+        "No cost to install or for partnership.",
+        "Member experience enhanced.",
+        "Modernizes your gym with a smart, hygienic solution.",
+        "Generates passive income through revenue sharing."
+      ]
+    },
+    "myLocations": {
+      "title": "Our Locations",
+      "searchPlaceholder": "Search gym...",
+      "viewOnMaps": "View on Google Maps"
+    },
+    "ourClients": {
+      "title": "Trusted By"
+    },
+    "homeContact": {
+      "title": "Let’s Talk Opportunities",
+      "subtitle": "Reach out anytime. We’re happy to answer your questions and explore how DRINQ™ can bring value to your facility.",
+      "button": "Contact Us"
+    }
+  },
+  "getStartedPage": {
+    "title": "Get Started With DRINQ",
+    "subtitle": "Getting started with DRINQ™ is simple, fast, and completely managed by our team. From the first meeting to the installation and profit sharing, everything is handled for you — no setup costs, no daily management.",
+    "finalText": "Simple, transparent, and rewarding.",
+    "steps": [
+      {
+        "title": "Step 1 – Initial Meeting",
+        "subtitle": "We start with a quick meeting to understand your facility: monthly and daily traffic. This helps us tailor the best solution for your location."
+      },
+      {
+        "title": "Step 2 – Site Evaluation",
+        "subtitle": "Together, we identify a strategic spot inside your gym usually near high-traffic zones or entrances to ensure maximum visibility and convenience for your members."
+      },
+      {
+        "title": "Step 3 – Agreement & Setup",
+        "subtitle": "Once the location is confirmed, we finalize the agreement and terms. DRINQ™ then takes care of everything: installation, refills, maintenance, and overall management of the machine."
+      },
+      {
+        "title": "Step 4 – Profit Sharing",
+        "subtitle": "As part of our partnership, your gym receives a share of the revenues generated along with a detailed sales report."
+      }
+    ],
+    "cardTitle": "Become a partner now",
+    "cardButton": "Submit"
+  },
+  "contact_us": {
+    "button": "Contact Us",
+    "title": "Contact Us",
+    "subtitle": "We’d love to hear from you! <br/> Let’s get in touch",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "business_email": "Business Email",
+    "phone_number": "Phone Number",
+    "message": "Message",
+    "first_name_placeholder": "Enter your first name",
+    "last_name_placeholder": "Enter your last name",
+    "business_email_placeholder": "Enter your email",
+    "phone_number_placeholder": "Enter your phone number",
+    "message_placeholder": "Write your message here...",
+    "send_button": "Submit",
+    "or_reach": "Or reach us out on here",
+    "email": "info@distributiondrinq.ca"
+  },
+  "aboutUsPage": {
+    "imgWTitle": {
+      "title": "Where Innovation Meets Fitness"
+    },
+    "howItStarted": {
+      "title": "How it started",
+      "text": "We noticed that many gym owners and fitness facility managers wish to offer their members a premium nutritional experience such as fresh protein shakes but don’t want to deal with the operational costs, management, or logistics of running a smoothie or supplement bar.<br/>That’s where DRINQ comes in. We handle everything from installation and operation to restocking and maintenance allowing gyms to offer a modern, convenient, and profitable amenity without any effort on their part. Our vending machines deliver freshly mixed, high-quality supplements with great variety and speed, elevating both the gym’s brand image and the member experience."
+    },
+    "whoWeAre": {
+      "title": "Who we are",
+      "text": "Distribution DRINQ Inc., also called DRINQ™, is a corporation specializing in automated sport supplement vending solutions. From services to cost, everything is handled by us, giving your sport facility the convenience and innovation it deserves."
+    },
+    "imgWTitle2": {
+      "title": "Brand Mission",
+      "text": "Our mission is to enhance the value and experience of fitness centers by providing a simple, high-quality, and fully managed solution for on-demand protein shakes and sports supplements."
+    }
+  },
+  "advertisingPage": {
+    "hero": {
+      "title": "Advertising, Reinvented.",
+      "button": "Start Advertising"
+    },
+    "advertiseDrinq": {
+      "title": "Advertise with DRINQ",
+      "text": "Reach your audience where it matters most inside the gym. Our automated machines feature large digital screens located in high-traffic fitness centers, offering brands a powerful and cost-effective way to reach active consumers.",
+      "button": "Our Locations"
+    },
+    "whyItWorks": {
+      "title": "Why it works",
+      "benefits": [
+        "Exceptional visibility.",
+        "Shape customer buying decisions.",
+        "Quick and simple setup.",
+        "Data you can trust."
+      ]
+    }
+  }
+}
