@@ -88,7 +88,7 @@ export default function MyLocations() {
         className="d-flex justify-content-center align-items-center text-center"
         style={{ fontWeight: "bold" }}
       >
-        <span className="d-none d-md-block" style={{ fontSize: "85px" }}>
+        <span className="d-none d-md-block" style={{ fontSize: "75px" }}>
           {t("homePage.myLocations.title")}
         </span>
         <span className="d-md-none" style={{ fontSize: "42px" }}>

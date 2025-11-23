@@ -17,7 +17,7 @@ const ImgWTitle = () => {
           {t("aboutUsPage.imgWTitle.title")}
         </span>
 
-        <span className="d-md-none hero-title1" style={{ fontSize: "45px" }}>
+        <span className="d-md-none hero-title1" style={{ fontSize: "41px" }}>
           {t("aboutUsPage.imgWTitle.title")}
         </span>
       </div>

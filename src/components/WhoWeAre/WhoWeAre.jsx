@@ -39,10 +39,7 @@ const WhoWeAre = () => {
           className="d-flex flex-column justify-content-center align-items-center text-center fw-bold"
         >
           {/* Desktop title */}
-          <span
-            className="d-none d-md-block who-title"
-            style={{ fontSize: "85px" }}
-          >
+          <span className="d-none d-md-block " style={{ fontSize: "75px" }}>
             {t("aboutUsPage.whoWeAre.title")}
           </span>
 

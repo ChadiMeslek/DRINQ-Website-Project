@@ -215,7 +215,7 @@ const ContactUsModal = ({ show, handleClose }) => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="bg-dark text-white flex-fill border-dark"
+                      className="bg-dark text-white flex-fill border-dark placeholder-white"
                       style={{ borderRadius: "0px 5px 5px 0px" }}
                       placeholder={t("contact_us.phone_number_placeholder")}
                       maxLength={10}

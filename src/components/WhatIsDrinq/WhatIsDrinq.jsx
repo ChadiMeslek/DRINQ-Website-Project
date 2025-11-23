@@ -22,14 +22,14 @@ const WhatIsDrinq = () => {
       <div
         className="d-flex justify-content-center align-items-center text-center"
         style={{
-          fontSize: "85px",
+          fontSize: "75px",
           fontWeight: "bold",
         }}
       >
         <span className="d-none d-md-block">
           {t("homePage.whatIsDrinq.title")}
         </span>
-        <span className="d-md-none" style={{ fontSize: "42px" }}>
+        <span className="d-md-none" style={{ fontSize: "42spx" }}>
           {t("homePage.whatIsDrinq.title")}
         </span>
       </div>

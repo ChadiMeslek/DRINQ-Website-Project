@@ -1,5 +1,5 @@
 .contact-container-wrapper {
-  background-color: #F5F7FA;
+  background-color: #f5f7fa;
   padding: 30px 20px; /* mobile default */
 }
 
@@ -19,7 +19,7 @@
 
 /* TITLE */
 .contact-title {
-  font-size: 36px; /* mobile default */
+  font-size: 42px; /* mobile default */
 }
 
 /* SUBTITLE */
@@ -59,7 +59,7 @@
   }
 
   .contact-title {
-    font-size: 64px;
+    font-size: 75px;
   }
 
   .contact-subtitle {

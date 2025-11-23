@@ -14,7 +14,7 @@ export default function OurClients() {
     >
       {/* Title */}
       <div className="text-center fw-bold">
-        <span className="d-none d-md-block" style={{ fontSize: "85px" }}>
+        <span className="d-none d-md-block" style={{ fontSize: "75px" }}>
           {t("homePage.ourClients.title")}
         </span>
         <span className="d-md-none" style={{ fontSize: "42px" }}>
