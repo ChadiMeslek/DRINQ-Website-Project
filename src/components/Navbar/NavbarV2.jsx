@@ -13,7 +13,7 @@ const NavbarV2 = () => {
   const [showModal, setShowModal] = useState(false); // <-- modal state
   const location = useLocation();
   // Set default from i18n
-  const [activeLang, setActiveLang] = useState(i18n.language || "en");
+  const [activeLang, setActiveLang] = useState(i18n.language || "fr");
 
   const [scrolled, setScrolled] = useState(false);
 

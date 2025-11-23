@@ -10,7 +10,7 @@ const ContactUsButton = ({ openModal }) => {
   return (
     <Button
       style={{ backgroundColor: "#000", borderColor: "#000" }}
-      className="px-4 py-3 fs-5 rounded-4 fw-semibold d-flex justify-content-center align-items-center gap-2"
+      className="px-4 py-3 fs-5 send-btn rounded-4 fw-semibold d-flex justify-content-center align-items-center gap-2"
       onClick={openModal}
     >
       <span>{t("contact_us.button")}</span>

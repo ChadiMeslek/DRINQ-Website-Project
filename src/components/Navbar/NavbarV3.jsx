@@ -14,7 +14,7 @@ const NavbarV3 = () => {
   const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   // At the top, inside NavbarV3 component
-  const [activeLang, setActiveLang] = useState(i18n.language || "en");
+  const [activeLang, setActiveLang] = useState(i18n.language || "fr");
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
