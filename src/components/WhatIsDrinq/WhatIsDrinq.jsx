@@ -1,5 +1,5 @@
 import React from "react";
-import DRINQImg from "../../assets/DRINQ-vending-machine.png";
+import DRINQImg from "../../assets/DRINQ-vending-machine-2.png";
 import "./WhatIsDrinq.css";
 import { useTranslation } from "react-i18next";
 const WhatIsDrinq = () => {
@@ -42,7 +42,7 @@ const WhatIsDrinq = () => {
           alt="DRINQ"
           className="img-fluid d-block d-md-none"
           style={{
-            height: "200px",
+            height: "350px",
             maxWidth: "100%",
           }}
         />
