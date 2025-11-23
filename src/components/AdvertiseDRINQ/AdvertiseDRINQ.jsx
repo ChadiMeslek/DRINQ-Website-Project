@@ -96,13 +96,11 @@ const AdvertiseDRINQ = () => {
 
             {/* BUTTON */}
             <Button
-              className="location-btn fw-semibold fs-4 rounded-4 py-3 px-3"
+              className="location-btn button-advertising fw-semibold  rounded-4 py-3 px-3"
               style={{ backgroundColor: "black", borderColor: "black" }}
               onClick={handleScrollToLocations}
             >
-              <h4 className="mb-0">
-                {t("advertisingPage.advertiseDrinq.button")}
-              </h4>
+              {t("advertisingPage.advertiseDrinq.button")}
             </Button>
           </div>
         </div>
