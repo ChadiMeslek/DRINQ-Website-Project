@@ -4,3 +4,11 @@
   box-shadow: 0 0 0px 1000px #fff inset !important;
   -webkit-text-fill-color: #000 !important;
 }
+
+.send-btn {
+  transition: transform 0.2s ease-in-out;
+}
+
+.send-btn:hover {
+  transform: scale(1.05);
+}

@@ -44,3 +44,11 @@
   -webkit-text-fill-color: #ffffff !important;
   caret-color: #ffffff !important;
 }
+
+.send-btn {
+  transition: transform 0.2s ease-in-out;
+}
+
+.send-btn:hover {
+  transform: scale(1.05);
+}

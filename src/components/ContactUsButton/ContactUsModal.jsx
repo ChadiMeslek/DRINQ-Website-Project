@@ -247,7 +247,7 @@ const ContactUsModal = ({ show, handleClose }) => {
             <div className="d-flex flex-fill flex-column mt-3">
               <Button
                 variant="dark"
-                className="d-flex flex-fill px-4 py-2 justify-content-center align-items-center rounded-pill"
+                className="d-flex flex-fill px-4 py-2 justify-content-center align-items-center rounded-pill send-btn"
                 onClick={handleSubmit}
                 disabled={loading}
               >

@@ -298,7 +298,7 @@ const GetStartedPage = () => {
               <div className="d-flex justify-content-center w-100">
                 <Button
                   type="submit"
-                  className="d-flex align-items-center justify-content-center"
+                  className="d-flex align-items-center justify-content-center send-btn"
                   style={{
                     backgroundColor: "white",
                     color: "black",
