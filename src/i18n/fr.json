@@ -24,13 +24,11 @@
       "cards": [
         {
           "title": "Pour les propriétaires",
-          "textDesktop": "C’est un moyen simple d’améliorer l’expérience des membres et de générer de la valeur supplémentaire sans installation, personnel ou gestion continue.",
-          "textMobile": "Améliorez l’expérience des membres sans personnel ni installation nécessaires."
+          "text": "C’est une façon simple d’améliorer l’expérience de vos membres et de créer une valeur supplémentaire, sans installation, sans personnel et sans gestion continue."
         },
         {
           "title": "Pour les consommateurs",
-          "textDesktop": "C’est le moyen le plus simple de profiter de compléments frais et de haute qualité à tout moment, directement dans la salle de sport.",
-          "textMobile": "Compléments frais et de haute qualité à tout moment dans votre salle de sport."
+          "text": "La manière la plus simple de savourer des suppléments frais et de qualité, à tout moment, directement au gym."
         }
       ]
     },

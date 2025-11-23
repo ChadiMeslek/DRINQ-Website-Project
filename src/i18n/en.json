@@ -57,9 +57,9 @@
     }
   },
   "getStartedPage": {
-    "title": "Get Started With DRINQ",
+    "title": "Get Started with DRINQ",
     "subtitle": "Getting started with DRINQ™ is simple, fast, and completely managed by our team. From the first meeting to the installation and profit sharing, everything is handled for you no setup costs, no daily management.",
-    "finalText": "Simple, transparent, and rewarding.",
+    "finalText": "Simple, transparent and rewarding.",
     "steps": [
       {
         "title": "Step 1 – Initial Meeting",
@@ -71,7 +71,7 @@
       },
       {
         "title": "Step 3 – Agreement & Setup",
-        "subtitle": "Once the location is confirmed, we finalize the agreement and terms. DRINQ™ then takes care of everything: installation, refills, maintenance, and overall management of the machine."
+        "subtitle": "Once the location is confirmed, we finalize the agreement and terms. We then take care of everything: installation, refills, maintenance, and overall management of the machine."
       },
       {
         "title": "Step 4 – Profit Sharing",
@@ -123,7 +123,7 @@
     },
     "advertiseDrinq": {
       "title": "Advertise with DRINQ",
-      "text": "Reach your audience where it matters most inside the gym. Our automated machines feature large digital screens located in high-traffic fitness centers, offering brands a powerful and cost-effective way to reach active consumers.",
+      "text": "Reach your audience where it matters most, inside busy sports facilities. Our automated machines feature large digital screens placed in high-traffic areas, giving brands a powerful and cost-effective way to engage active consumers.",
       "button": "Our Locations"
     },
     "whyItWorks": {

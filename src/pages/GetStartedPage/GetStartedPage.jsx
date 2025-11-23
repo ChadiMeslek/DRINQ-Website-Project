@@ -323,7 +323,7 @@ const GetStartedPage = () => {
           </div>
           <div className="d-flex d-md-none justify-content-center p-4">
             <button
-              className="btn btn-light w-100 py-3"
+              className="btn btn-light w-100 py-3 send-btn"
               style={{
                 borderRadius: "40px",
                 fontSize: "20px",
