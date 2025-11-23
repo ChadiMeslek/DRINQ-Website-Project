@@ -40,12 +40,15 @@ const WhyItWorks = () => {
         "
         >
           <span
-            className="d-none w-100 d-md-block fw-bold"
+            className="d-none w-100 d-md-block fw-bold text-black"
             style={{ fontSize: "75px", paddingLeft: "45px" }}
           >
             {t("advertisingPage.whyItWorks.title")}
           </span>
-          <span className="d-md-none fw-bold" style={{ fontSize: "42px" }}>
+          <span
+            className="d-md-none fw-bold text-black"
+            style={{ fontSize: "42px" }}
+          >
             {t("advertisingPage.whyItWorks.title")}
           </span>
 

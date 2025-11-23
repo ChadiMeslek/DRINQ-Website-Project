@@ -157,7 +157,7 @@ const ContactUsModal = ({ show, handleClose }) => {
             </div>
 
             <div
-              className="d-flex flex-column flex-fill"
+              className="d-flex flex-column flex-fill contact-dark-form"
               style={{ gap: "15px" }}
             >
               {/* Form Rows */}

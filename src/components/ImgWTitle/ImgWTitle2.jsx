@@ -24,7 +24,7 @@ const ImgWTitle = () => {
         {/* Mobile title */}
         <span
           className="d-md-none fw-bold"
-          style={{ fontSize: "28px", paddingLeft: "13px" }}
+          style={{ fontSize: "28px", paddingLeft: "13px", marginTop: "10px" }}
         >
           {t("aboutUsPage.imgWTitle2.title")}
         </span>

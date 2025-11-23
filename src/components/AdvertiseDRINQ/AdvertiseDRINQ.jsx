@@ -62,10 +62,13 @@ const AdvertiseDRINQ = () => {
             className="d-flex justify-content-center align-items-center text-center"
             style={{ fontWeight: "bold" }}
           >
-            <span className="d-none d-md-block" style={{ fontSize: "75px" }}>
+            <span
+              className="d-none d-md-block text-black"
+              style={{ fontSize: "75px" }}
+            >
               {t("advertisingPage.advertiseDrinq.title")}
             </span>
-            <span className="d-md-none" style={{ fontSize: "42px" }}>
+            <span className="d-md-none text-black" style={{ fontSize: "42px" }}>
               {t("advertisingPage.advertiseDrinq.title")}
             </span>
           </div>
@@ -93,8 +96,8 @@ const AdvertiseDRINQ = () => {
 
             {/* BUTTON */}
             <Button
-              variant="dark"
-              className="fw-semibold fs-4 rounded-4 py-3 px-3"
+              className="location-btn fw-semibold fs-4 rounded-4 py-3 px-3"
+              style={{ backgroundColor: "black", borderColor: "black" }}
               onClick={handleScrollToLocations}
             >
               <h4 className="mb-0">

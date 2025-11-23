@@ -37,3 +37,10 @@
 .desktop-social-links a:hover {
   transform: scale(1.2);
 }
+
+.contact-dark-form input:-webkit-autofill,
+.contact-dark-form textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #212529 inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  caret-color: #ffffff !important;
+}

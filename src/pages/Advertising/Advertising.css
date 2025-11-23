@@ -6,3 +6,10 @@
     font-size: 1.25rem !important;
   }
 }
+.start-advertising-btn {
+  transition: transform 0.2s ease-in-out;
+}
+
+.start-advertising-btn:hover {
+  transform: scale(1.1);
+}

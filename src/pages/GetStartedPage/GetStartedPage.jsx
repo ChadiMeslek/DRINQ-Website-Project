@@ -13,7 +13,7 @@ import "./GetStartedPage.css";
 import ReCAPTCHA from "react-google-recaptcha";
 import Footer from "../../components/Footer/Footer";
 import NavbarV2 from "../../components/Navbar/NavbarV2";
-
+import "./GetStartedPage.css";
 const icons = [
   <FaPeopleArrows size={30} color="white" />,
   <FaSearchLocation size={30} color="white" />,
@@ -204,7 +204,7 @@ const GetStartedPage = () => {
           >
             <Form
               onSubmit={handleSubmit}
-              className="d-flex flex-column bg-dark"
+              className="d-flex flex-column bg-dark contact-light-form"
               style={{
                 borderRadius: "50px",
                 padding: "44px 33px",

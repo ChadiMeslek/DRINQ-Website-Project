@@ -36,7 +36,7 @@ const WhoWeAre = () => {
         {/* TITLE */}
         <div
           style={{ gap: "30px" }}
-          className="d-flex flex-column justify-content-center align-items-center text-center fw-bold"
+          className="d-flex flex-column justify-content-center align-items-center text-center fw-bold text-black"
         >
           {/* Desktop title */}
           <span className="d-none d-md-block " style={{ fontSize: "75px" }}>

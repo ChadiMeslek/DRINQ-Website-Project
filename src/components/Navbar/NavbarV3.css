@@ -216,3 +216,8 @@ nav {
   color: white !important;
   border-color: black !important;
 }
+.language-btns.btn-outline-dark:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-color: #000000 !important;
+}

@@ -10,7 +10,7 @@ const HowItStarted = () => {
       className="d-flex py-3 flex-column flex-fill justify-content-center align-items-center"
     >
       <div
-        className="d-flex justify-content-center align-items-center text-center"
+        className="d-flex justify-content-center align-items-center text-center text-black"
         style={{ fontWeight: "bold" }}
       >
         <span className="d-none d-md-block" style={{ fontSize: "75px" }}>

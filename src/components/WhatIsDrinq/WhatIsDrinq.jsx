@@ -29,7 +29,7 @@ const WhatIsDrinq = () => {
         <span className="d-none d-md-block">
           {t("homePage.whatIsDrinq.title")}
         </span>
-        <span className="d-md-none" style={{ fontSize: "42spx" }}>
+        <span className="d-md-none" style={{ fontSize: "42px" }}>
           {t("homePage.whatIsDrinq.title")}
         </span>
       </div>

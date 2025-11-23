@@ -18,17 +18,17 @@
       "tagline": "L'avenir des shakes."
     },
     "whatIsDrinq": {
-      "title": "Qu'est-ce que DRINQ",
-      "descriptionDesktop": "DRINQ™ est une solution de distribution automatique qui propose des compléments sportifs frais tels que des protéines, de la créatine et du pré-entraînement en quelques secondes. Contrairement aux bars à smoothies traditionnels ou aux distributeurs de fitness, DRINQ™ a été créé pour offrir une manière moderne et simple de profiter des compléments, éliminant le temps, le coût et la complexité de la gestion d'un bar.",
+      "title": "C'est quoi DRINQ",
+      "descriptionDesktop": "DRINQ™ est une machine distributrice automatisée qui sert des suppléments sportifs frais tels que des protéines, de la créatine et des pre-workout en quelques secondes. Plutôt que de dépendre d’un bar à smoothies ou d’une distributrice classique, nous proposons une solution simple, rapide et efficace qui élimine les coûts et la gestion d’un bar traditionnel.",
       "descriptionMobile": "DRINQ™ est un distributeur automatique qui sert des compléments frais comme des protéines, de la créatine et du pré-entraînement en quelques secondes — rapide, moderne et simple.",
       "cards": [
         {
-          "title": "Pour les propriétaires de salle",
+          "title": "Pour les propriétaires",
           "textDesktop": "C’est un moyen simple d’améliorer l’expérience des membres et de générer de la valeur supplémentaire sans installation, personnel ou gestion continue.",
           "textMobile": "Améliorez l’expérience des membres sans personnel ni installation nécessaires."
         },
         {
-          "title": "Pour les utilisateurs",
+          "title": "Pour les consommateurs",
           "textDesktop": "C’est le moyen le plus simple de profiter de compléments frais et de haute qualité à tout moment, directement dans la salle de sport.",
           "textMobile": "Compléments frais et de haute qualité à tout moment dans votre salle de sport."
         }
@@ -39,9 +39,9 @@
       "list": [
         "Aucun personnel ou installation nécessaire.",
         "Aucun coût d'installation ou de partenariat.",
-        "Génère un revenu passif supplémentaire.",
+        "Améliore l’expérience de vos membres.",
         "Modernise votre salle avec une solution intelligente et hygiénique.",
-        "Tout cela avec un partage des bénéfices mensuel."
+        "Génère un revenu passif grâce au partage des revenus."
       ]
     },
     "myLocations": {
@@ -50,34 +50,34 @@
       "viewOnMaps": "Voir sur Google Maps"
     },
     "ourClients": {
-      "title": "Nos partenaires"
+      "title": "Nos Partenaires"
     },
     "homeContact": {
       "title": "Parlons Opportunités",
-      "subtitle": "Contactez-nous à tout moment. Nous serons ravis de répondre à vos questions et d’explorer comment DRINQ peut apporter de la valeur à votre établissement.",
+      "subtitle": "Contactez-nous à tout moment. Nous serons ravis de répondre à vos questions et d’explorer comment DRINQ™ peut apporter de la valeur à votre établissement.",
       "button": "Nous Contacter"
     }
   },
   "getStartedPage": {
     "title": "Commencez avec DRINQ",
-    "subtitle": "Commencer avec DRINQ™ est simple, rapide et entièrement géré par notre équipe. Depuis le premier rendez-vous jusqu'à l'installation et le partage des profits, tout est pris en charge pour vous — aucun coût d'installation, aucune gestion quotidienne.",
-    "finalText": "Simple, transparent et gratifiant.",
+    "subtitle": "Commencer avec DRINQ™ est simple, rapide et entièrement géré par notre équipe. Depuis le premier rendez-vous jusqu'à l'installation et le partage des profits, tout est pris en charge pour vous, aucun coût d'installation, aucune gestion quotidienne.",
+    "finalText": "Simple, transparent et rentable.",
     "steps": [
       {
         "title": "Étape 1 – Première rencontre",
-        "subtitle": "Nous commençons par une réunion rapide pour comprendre votre établissement : trafic mensuel et quotidien. Cela nous aide à adapter la meilleure solution pour votre emplacement."
+        "subtitle": "Nous commençons par une courte rencontre pour comprendre votre établissement, notamment votre achalandage mensuel et quotidien. Cela nous permet d’adapter la solution idéale à votre emplacement."
       },
       {
         "title": "Étape 2 – Évaluation du site",
-        "subtitle": "Ensemble, nous identifions un emplacement stratégique à l'intérieur de votre salle, généralement près des zones à fort trafic ou des entrées pour assurer une visibilité et une commodité maximales pour vos membres."
+        "subtitle": "Ensemble, nous identifions un emplacement stratégique à l'intérieur de votre succursale, généralement près des zones à fort trafic ou des entrées pour assurer une visibilité et une commodité maximales pour vos membres."
       },
       {
         "title": "Étape 3 – Accord & Installation",
-        "subtitle": "Une fois l'emplacement confirmé, nous finalisons l'accord et les conditions. DRINQ™ s'occupe ensuite de tout : installation, remplissage, maintenance et gestion globale de la machine."
+        "subtitle": "Une fois l'emplacement confirmé, nous finalisons l'accord et les conditions. On s'occupe ensuite de tout : installation, remplissage, maintenance et gestion globale de la machine."
       },
       {
         "title": "Étape 4 – Partage des bénéfices",
-        "subtitle": "Dans le cadre de notre partenariat, votre salle reçoit une part des revenus générés ainsi qu'un rapport de ventes détaillé."
+        "subtitle": "Dans le cadre de notre partenariat, votre succursale reçoit une part des revenus générés ainsi qu'un rapport de ventes détaillé."
       }
     ],
     "cardTitle": "Devenez partenaire maintenant",
@@ -103,30 +103,30 @@
   },
   "aboutUsPage": {
     "imgWTitle": {
-      "title": "OÙ L’INNOVATION RENCONTRE LE FITNESS"
+      "title": "Innovation et Fitness Réunis"
     },
     "howItStarted": {
-      "title": "Comment Tout a Commencé",
-      "text": "Nous avons remarqué que de nombreux propriétaires de salles de sport et gestionnaires d'installations souhaitent offrir à leurs membres une expérience nutritionnelle haut de gamme, comme des shakes protéinés frais, mais ne veulent pas gérer les coûts opérationnels, la gestion ou la logistique d'un bar à smoothies ou de suppléments.<br/>C'est là que DRINQ entre en jeu. Nous nous occupons de tout, de l'installation au réapprovisionnement et à la maintenance, permettant aux salles de sport d'offrir une commodité moderne, pratique et rentable sans effort de leur part. Nos distributeurs automatiques délivrent des suppléments frais et de haute qualité avec grande variété et rapidité, valorisant à la fois l'image de marque de la salle et l'expérience des membres."
+      "title": "Nos Débuts",
+      "text": "Nous avons constaté que de nombreux propriétaires de gyms et gestionnaires de centres d’entraînement souhaitent offrir à leurs membres une expérience nutritionnelle haut de gamme, comme des shakes protéinés frais, sans avoir à gérer les coûts opérationnels, la main-d’œuvre ou la logistique d’un bar à smoothies ou de suppléments. C’est là que DRINQ intervient. Nous prenons en charge l’installation, l’exploitation, le réapprovisionnement et l’entretien, permettant aux gyms d’offrir un service moderne, pratique et rentable, sans aucun effort. Nos distributrices préparent des suppléments frais, de haute qualité, avec variété et rapidité, améliorant à la fois l’image de marque du gym et l’expérience de ses membres."
     },
     "whoWeAre": {
-      "title": "Qui Nous Sommes",
+      "title": "Qui nous sommes",
       "text": "Distribution DRINQ Inc., également appelée DRINQ™, est une société spécialisée dans les solutions automatisées de distribution de suppléments sportifs. Du service au coût, tout est pris en charge par nous, offrant à votre établissement sportif la commodité et l'innovation qu'il mérite."
     },
     "imgWTitle2": {
-      "title": "Mission de la marque",
-      "text": "Notre mission est de valoriser et d'améliorer l'expérience des centres de fitness en fournissant une solution simple, de haute qualité et entièrement gérée pour des shakes protéinés et suppléments sportifs à la demande."
+      "title": "Notre Raison",
+      "text": "Notre mission est d’améliorer l’expérience et la valeur des centres de fitness grâce à une solution simple, de qualité et entièrement prise en charge pour des shakes protéinés et suppléments sportifs à la demande."
     }
   },
   "advertisingPage": {
     "hero": {
       "title": "Publicité, Réinventée.",
-      "button": "Commencer la publicité"
+      "button": "Propulsez votre Publicité"
     },
     "advertiseDrinq": {
-      "title": "Faites de la publicité avec DRINQ",
-      "text": "Atteignez votre audience là où cela compte le plus dans la salle de sport. Nos machines automatisées disposent de grands écrans numériques situés dans des centres de fitness à fort trafic, offrant aux marques un moyen puissant et rentable d'atteindre les consommateurs actifs.",
-      "button": "Nos emplacements"
+      "title": "Annoncez avec DRINQ",
+      "text": "Atteignez votre public directement dans les installations sportives les plus achalandées. Nos distributrices automatisées disposent de grands écrans numériques situés dans des zones très fréquentées, permettant aux marques de rejoindre efficacement et à faible coût des consommateurs actifs.",
+      "button": "Nos Emplacements"
     },
     "whyItWorks": {
       "title": "Pourquoi ça marche",
