@@ -96,13 +96,13 @@ const WhatIsDrinq = () => {
           <div className="d-flex flex-column gap-3 w-100 d-flex d-md-none">
             <Card
               className="w-100"
-              title="For Gym Owners"
-              text="Enhance member experience with no staff or setup needed."
+              title={t("homePage.whatIsDrinq.cards.0.title")}
+              text={t("homePage.whatIsDrinq.cards.0.text")}
             />
 
             <Card
-              title="For Users"
-              text="Fresh, high-quality supplements anytime at the gym."
+              title={t("homePage.whatIsDrinq.cards.1.title")}
+              text={t("homePage.whatIsDrinq.cards.1.text")}
             />
           </div>
         </div>
