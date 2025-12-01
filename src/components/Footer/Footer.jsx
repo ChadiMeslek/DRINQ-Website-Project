@@ -56,26 +56,34 @@ export default function Footer() {
           </div>
 
           <div className="custom-text footer-text d-flex gap-4 flex-wrap justify-content-center">
-            {links.map((link, index) =>
-              link.text === "Locations" ? (
-                <span
-                  key={index}
-                  onClick={handleLocationClick}
-                  className="text-light fw-semibold footer-text text-decoration-none"
-                  style={{ cursor: "pointer" }}
-                >
-                  {link.text}
-                </span>
-              ) : link.text === "Contact Us" ? (
-                <span
-                  key={index}
-                  onClick={() => setShowModal(true)} // open modal
-                  className="text-light fw-semibold footer-text text-decoration-none"
-                  style={{ cursor: "pointer" }}
-                >
-                  {link.text}
-                </span>
-              ) : (
+            {links.map((link, index) => {
+              if (link.path === "/contact") {
+                return (
+                  <span
+                    key={index}
+                    onClick={() => setShowModal(true)}
+                    className="text-light fw-semibold footer-text text-decoration-none"
+                    style={{ cursor: "pointer" }}
+                  >
+                    {link.text}
+                  </span>
+                );
+              }
+
+              if (link.text === "Locations") {
+                return (
+                  <span
+                    key={index}
+                    onClick={handleLocationClick}
+                    className="text-light fw-semibold footer-text text-decoration-none"
+                    style={{ cursor: "pointer" }}
+                  >
+                    {link.text}
+                  </span>
+                );
+              }
+
+              return (
                 <Link
                   key={index}
                   to={link.path}
@@ -83,8 +91,8 @@ export default function Footer() {
                 >
                   {link.text}
                 </Link>
-              )
-            )}
+              );
+            })}
           </div>
 
           <div className="text-center text-light fs-6">

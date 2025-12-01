@@ -64,13 +64,19 @@ const WhatIsDrinq = () => {
           style={{ maxWidth: "800px" }}
         >
           {/* PARAGRAPH */}
-          <p className="text-center fs-3 fw-regular d-none d-md-block">
-            {t("homePage.whatIsDrinq.descriptionDesktop")}
-          </p>
+          <p
+            className="text-center fs-3 fw-regular d-none d-md-block"
+            dangerouslySetInnerHTML={{
+              __html: t("homePage.whatIsDrinq.descriptionDesktop"),
+            }}
+          ></p>
 
-          <p className="text-center fs-5 fw-regular d-md-none">
-            {t("homePage.whatIsDrinq.descriptionMobile")}
-          </p>
+          <p
+            className="text-center fs-5 fw-regular d-md-none"
+            dangerouslySetInnerHTML={{
+              __html: t("homePage.whatIsDrinq.descriptionMobile"),
+            }}
+          ></p>
 
           {/* CARDS */}
           <div className="d-flex flex-row w-100 gap-4 d-none d-md-flex">

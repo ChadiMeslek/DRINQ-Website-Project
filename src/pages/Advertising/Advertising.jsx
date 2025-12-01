@@ -14,7 +14,6 @@ const Advertising = () => {
 
   // ⬅️ Add modal state
   const [showModal, setShowModal] = useState(false);
-
   const openModal = () => setShowModal(true);
   const closeModal = () => setShowModal(false);
 
@@ -68,6 +67,7 @@ const Advertising = () => {
                   backgroundColor: "white",
                   borderColor: "white",
                 }}
+                onClick={openModal}
                 className="button-advertising start-advertising-btn px-2 py-2 px-xl-4 py-xl-3 text-black rounded-4 fw-semibold d-flex align-items-center gap-2"
               >
                 {t("advertisingPage.hero.button")}
