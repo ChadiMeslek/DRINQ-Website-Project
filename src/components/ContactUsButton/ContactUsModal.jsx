@@ -122,7 +122,7 @@ const ContactUsModal = ({ show, handleClose }) => {
       {/* Close Button */}
       <Button
         variant="light"
-        className="position-absolute top-3 end-3 p-2 rounded-circle"
+        className="position-absolute top-3 end-3 p-2 "
         onClick={handleClose}
         style={{ zIndex: 1051 }}
       >
@@ -138,8 +138,15 @@ const ContactUsModal = ({ show, handleClose }) => {
         <div className="d-flex flex-column flex-fill">
           <div className="d-flex justify-content-center align-items-center p-3">
             <h2
-              className="contact-title"
+              className="contact-title d-none d-md-block"
               style={{ fontSize: "50px", fontWeight: 400 }}
+            >
+              {t("contact_us.title")}
+            </h2>
+
+            <h2
+              className="contact-title d-md-none"
+              style={{ fontSize: "40px", fontWeight: 400 }}
             >
               {t("contact_us.title")}
             </h2>
