@@ -96,8 +96,6 @@ const ContactUsModal = ({ show, handleClose }) => {
         body,
       });
 
-      console.log("Submitting formData:", formData);
-
       setSuccess(true);
       setLoading(false);
       setFormData({
