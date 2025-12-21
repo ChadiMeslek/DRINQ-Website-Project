@@ -52,3 +52,25 @@
 .send-btn:hover {
   transform: scale(1.05);
 }
+.contact-dark-form select {
+  background-color: #212529;
+  color: white;
+}
+
+/* Selected option (works everywhere) */
+.contact-dark-form select option:checked {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Hover option (works mainly in Firefox) */
+.contact-dark-form select option:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Remove blue highlight in Firefox */
+.contact-dark-form select option:focus {
+  background-color: white !important;
+  color: black !important;
+}

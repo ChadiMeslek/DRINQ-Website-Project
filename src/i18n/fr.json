@@ -89,15 +89,26 @@
     "last_name": "Nom",
     "business_email": "Email professionnel",
     "phone_number": "Numéro de téléphone",
-    "message": "Message",
+    "message": "Commentaire",
     "first_name_placeholder": "Entrez votre prénom",
     "last_name_placeholder": "Entrez votre nom",
     "business_email_placeholder": "Entrez votre email",
     "phone_number_placeholder": "Entrez votre numéro de téléphone",
-    "message_placeholder": "Écrivez votre message ici...",
-    "send_button": "Envoyer le message",
+    "message_placeholder": "Écrivez votre commentaire ici...",
+    "send_button": "Envoyer",
     "or_reach": "Ou contactez-nous ici",
-    "email": "info@distributiondrinq.ca"
+    "email": "info@distributiondrinq.ca",
+    "heard_from": {
+      "label": "Comment avez-vous entendu parler de DRINQ ?",
+      "required": "Veuillez nous indiquer comment vous avez entendu parler de DRINQ.",
+      "options": {
+        "gym": "Dans un gym (Vu la machine en personne)",
+        "google": "Recherche Google",
+        "social": "Réseaux sociaux",
+        "referral": "Recommandation",
+        "other": "Autre"
+      }
+    }
   },
   "aboutUsPage": {
     "imgWTitle": {

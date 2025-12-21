@@ -97,7 +97,18 @@
     "message_placeholder": "Write your message here...",
     "send_button": "Submit",
     "or_reach": "Or reach us out on here",
-    "email": "info@distributiondrinq.ca"
+    "email": "info@distributiondrinq.ca",
+    "heard_from": {
+      "label": "How did you hear about DRINQ?",
+      "required": "Please tell us how you heard about DRINQ.",
+      "options": {
+        "gym": "In a gym (Seen the machine in person)",
+        "google": "Google search",
+        "social": "Social media",
+        "referral": "Referral",
+        "other": "Other"
+      }
+    }
   },
   "aboutUsPage": {
     "imgWTitle": {
