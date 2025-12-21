@@ -15,7 +15,6 @@ const ContactUsModal = ({ show, handleClose }) => {
     last_name: "",
     email: "",
     phone: "",
-    heard_from: "",
     message: "",
   });
   const [loading, setLoading] = useState(false);
@@ -57,11 +56,6 @@ const ContactUsModal = ({ show, handleClose }) => {
       return false;
     }
 
-    if (formData.heard_from.length === 0) {
-      alert(t("contact_us.heard_from.required"));
-      return false;
-    }
-
     return true;
   };
 
@@ -71,8 +65,14 @@ const ContactUsModal = ({ show, handleClose }) => {
   const [captchaToken, setCaptchaToken] = useState(null);
 
   const handleSubmit = async () => {
+    if (!captchaToken) {
+      alert("Please complete the reCAPTCHA before submitting.");
+      return;
+    }
+
     if (!isFormValid()) {
-      return; // validation alerts already handled
+      alert("Please fill out all fields before submitting.");
+      return;
     }
 
     setLoading(true);
@@ -80,20 +80,15 @@ const ContactUsModal = ({ show, handleClose }) => {
     setSuccess(false);
 
     try {
-      const body = new URLSearchParams({
-        first_name: formData.first_name,
-        last_name: formData.last_name,
-        email: formData.email,
-        phone: formData.phone.replace(/\D/g, ""),
-        heard_from: formData.heard_from,
-        message: formData.message,
-        captcha: captchaToken, // send captcha token to your Google Script
-      }).toString();
-
       await fetch(process.env.REACT_APP_GOOGLE_SHEET_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body,
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          phone: formData.phone.replace(/\D/g, ""),
+          captchaToken,
+        }),
       });
 
       setSuccess(true);
@@ -103,17 +98,14 @@ const ContactUsModal = ({ show, handleClose }) => {
         last_name: "",
         email: "",
         phone: "",
-        heard_from: "",
         message: "",
       });
-      setCaptchaToken(null);
-
+      setCaptchaToken(null); // reset captcha
       setTimeout(() => {
         handleClose();
         setSuccess(false);
       }, 1200);
-    } catch (err) {
-      console.error(err);
+    } catch {
       setLoading(false);
       setError(true);
     }
@@ -178,10 +170,7 @@ const ContactUsModal = ({ show, handleClose }) => {
               {/* Form Rows */}
               <div className="d-flex flex-fill justify-content-between flex-column flex-lg-row w-100 gap-2">
                 <Form.Group className="w-100">
-                  <Form.Label>
-                    {t("contact_us.first_name")}{" "}
-                    <span className="text-danger">*</span>
-                  </Form.Label>
+                  <Form.Label>{t("contact_us.first_name")}</Form.Label>
                   <Form.Control
                     type="text"
                     name="first_name"
@@ -192,10 +181,7 @@ const ContactUsModal = ({ show, handleClose }) => {
                   />
                 </Form.Group>
                 <Form.Group className="w-100">
-                  <Form.Label>
-                    {t("contact_us.last_name")}{" "}
-                    <span className="text-danger">*</span>
-                  </Form.Label>
+                  <Form.Label>{t("contact_us.last_name")}</Form.Label>
                   <Form.Control
                     type="text"
                     name="last_name"
@@ -209,10 +195,7 @@ const ContactUsModal = ({ show, handleClose }) => {
 
               <div className="d-flex flex-fill justify-content-between flex-column flex-lg-row w-100 gap-2">
                 <Form.Group className="w-100">
-                  <Form.Label>
-                    {t("contact_us.business_email")}{" "}
-                    <span className="text-danger">*</span>
-                  </Form.Label>
+                  <Form.Label>{t("contact_us.business_email")}</Form.Label>
                   <Form.Control
                     type="email"
                     name="email"
@@ -223,10 +206,7 @@ const ContactUsModal = ({ show, handleClose }) => {
                   />
                 </Form.Group>
                 <Form.Group className="w-100">
-                  <Form.Label>
-                    {t("contact_us.phone_number")}{" "}
-                    <span className="text-danger">*</span>
-                  </Form.Label>
+                  <Form.Label>{t("contact_us.phone_number")}</Form.Label>
                   <div className="d-flex">
                     <span
                       className="d-flex align-items-center px-2 bg-dark text-white border-light rounded-start"
@@ -251,46 +231,8 @@ const ContactUsModal = ({ show, handleClose }) => {
                 </Form.Group>
               </div>
 
-              <Form.Group className="contact-dark-form">
-                <Form.Label>
-                  {t("contact_us.heard_from.label")}{" "}
-                  <span className="text-danger">*</span>
-                </Form.Label>
-
-                <Form.Select
-                  name="heard_from"
-                  value={formData.heard_from}
-                  onChange={handleChange}
-                  className="bg-dark text-white border-light"
-                  required
-                >
-                  <option value="" disabled hidden>
-                    - Select -
-                  </option>
-
-                  <option value="gym">
-                    {t("contact_us.heard_from.options.gym")}
-                  </option>
-                  <option value="google">
-                    {t("contact_us.heard_from.options.google")}
-                  </option>
-                  <option value="social">
-                    {t("contact_us.heard_from.options.social")}
-                  </option>
-                  <option value="referral">
-                    {t("contact_us.heard_from.options.referral")}
-                  </option>
-                  <option value="other">
-                    {t("contact_us.heard_from.options.other")}
-                  </option>
-                </Form.Select>
-              </Form.Group>
-
               <Form.Group>
-                <Form.Label>
-                  {t("contact_us.message")}{" "}
-                  <span className="text-danger">*</span>
-                </Form.Label>
+                <Form.Label>{t("contact_us.message")}</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows={4}
